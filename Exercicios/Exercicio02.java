@@ -8,10 +8,10 @@ public class Exercicio02 {
         Scanner input = new Scanner (System.in);
 
         System.out.println("Digite o código do funcionário: ");
-        int c = input.nextInt();
+        int codigo = input.nextInt();
 
-        System.out.println("Digite o sexo do funcionário (M para masculino, F para feminino): ");
-        char sexo = input.next().toUpperCase().charAt(0);
+        System.out.println("Digite o gênero do funcionário (M para masculino, F para feminino): ");
+        char genero = input.next().toUpperCase().charAt(0);
 
         System.out.println("Digite o tempo de trabalho em anos: ");
         int trabalho = input.nextInt();
@@ -21,9 +21,9 @@ public class Exercicio02 {
 
         double bonus;
 
-        if (sexo == 'M' && trabalho > 15) {
+        if (genero == 'M' && trabalho > 15) {
             bonus = salario * 0.20;
-        } else if (sexo == 'F' && trabalho > 10) {
+        } else if (genero == 'F' && trabalho > 10) {
             bonus = salario * 0.25;
         } else {
             bonus = 100;

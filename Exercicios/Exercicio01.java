@@ -7,8 +7,8 @@ public class Exercicio01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Digite o nome do funcionário: ");
-        String nome = input.nextLine();
+        System.out.println("Digite o código do funcionário: ");
+        int codigo = input.nextInt();
         
         System.out.println("Digite o número de horas trabalhadas: ");
         int horas = input.nextInt();
@@ -53,7 +53,7 @@ public class Exercicio01 {
         
         double Liquido = bruto - descontoINPS - IR + salarioFamilia + ADC;
        
-        System.out.println("Número do funcionário: " + nome);
+        System.out.println("Código do funcionário: " + codigo);
         System.out.println("Salário bruto: R$" + bruto);
         System.out.println("Desconto INPS: R$" + descontoINPS);
         System.out.println("Imposto de Renda(IR): R$" + IR);
