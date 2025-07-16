@@ -1,14 +1,6 @@
 # ds-murilo-rodrigues
 Desenvolvimento de Sistemas por João Siles e Davi Vilar
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MuriloRVv2/MuriloRVv2/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MuriloRVv2/MuriloRVv2/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MuriloRVv2/MuriloRVv2/output/pacman-contribution-graph.svg">
-</picture>
-
-###
-
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
