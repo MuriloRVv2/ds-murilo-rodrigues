@@ -7,7 +7,6 @@ public class Exercicio_Main {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		Usuario usuario2 = new Usuario();
 		
 		String nome, email;
 		int idade;
@@ -22,6 +21,7 @@ public class Exercicio_Main {
 		System.out.println("\nDigite sua idade: ");
 		idade = sc.nextInt();
 		
+		Usuario usuario2 = new Usuario(nome, email, idade);
 		
 		usuario2.exibirInfo();	
 		
